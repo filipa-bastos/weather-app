@@ -68,7 +68,7 @@ function App() {
                 <input placeholder="choose a city" type="text" onChange={showTextInput} />
                 <button onClick={handlerSetLocation}>Send Location</button>
             </div>
-            <Fbutton onClick={handleEvent} className={"test"} children={"take on me"} />
+            <Fbutton onClick={handleEvent} className={"btn-primary"} children={"take on me"} />
         </div>
     );
 }
